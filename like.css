@@ -1,3 +1,7 @@
+body {
+    background-color:red;
+}
+
 .rep-button, .rep-button:active {
     background: none;
     border: none;
