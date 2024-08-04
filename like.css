@@ -1,0 +1,23 @@
+.rep-button, .rep-button:active {
+    background: none;
+    border: none;
+    box-shadow:0 0 0;
+}
+
+.rep-button:before {
+  content:'';
+  font-family:'fontawesome';
+  color:grey;
+}
+
+.rep-button.fa_liked:before {
+  content:'';
+  font-family:'fontawesome';
+  color:green;
+}
+
+.rep-nb {
+  color:grey;
+  border:none;
+  font-family:arial;
+}
